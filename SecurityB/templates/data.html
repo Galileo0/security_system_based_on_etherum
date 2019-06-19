@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Init_visiting</title>
+</head>
+
+<body>
+    <p>Time only </p>
+    {% for item in data_time %}
+    
+       <P>{{item}}</P> 
+    
+    
+{% endfor %}
+<br>
+<p>Date Only </p>
+{% for item in data_date %}
+    
+       <P>{{item}}</P> 
+    
+    
+{% endfor %}
+<br>
+<p>Location only </p>
+{% for item in data_location %}
+    
+       <P>{{item}}</P> 
+    
+    
+{% endfor %}
+<br>
+<p>merged </p>
+{% for item in data_filter %}
+    
+       <P>{{item}}</P> 
+    
+    
+{% endfor %}
+<br>
+
+</body>
+</html>
